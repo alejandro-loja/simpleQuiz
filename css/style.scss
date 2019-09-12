@@ -1,0 +1,75 @@
+
+$backgroundColor: rgb(46, 154, 255);
+$hoverColor:  rgb(0, 110, 255); 
+$secondaryColor: slategray;
+$fontColor: white;
+$secondFontColor: black;
+
+body{
+    background: $backgroundColor;
+    color: $fontColor;
+    font-family: "Helvetica";
+}
+
+#container{
+    width: 75%;
+    background: $secondaryColor;
+    border-radius: 10px;
+    margin: 40px auto;
+    overflow: hidden;
+    padding: 25px;
+    padding-top: 50px;
+}
+
+header{
+    text-align: center;
+    border-bottom: $fontColor dashed 1px;
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    p{
+        padding: 0;
+        margin-top: 5px;
+    }
+}
+
+section{
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+}
+
+input[type='submit']{
+    font-size: 18px;
+    font-weight: bold;
+    background: $backgroundColor;
+    border: 0;
+    border-radius: 5px;
+    color: $fontColor;
+    padding: 15px 25px;
+    cursor: pointer;
+    &:hover{
+        background: $hoverColor;
+    }
+}
+
+form p{
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+#result{
+    h3 {
+    border-radius: 10px;
+    background: $backgroundColor;
+    padding: 10px;
+    margin: 10px 4px;
+     }
+    span {
+        color: $secondFontColor;
+        font-weight: bold;
+    }
+} 

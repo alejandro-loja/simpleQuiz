@@ -1,59 +1,71 @@
-body{
-    background: orange;
-    color: white;
-    font-family: "Helvetica"
+body {
+  background: #2e9aff;
+  color: white;
+  font-family: "Helvetica";
 }
 
-#container{
-    width: 75%;
-    background: slategray;
-    border-radius: 10px;
-    margin: 40px auto;
-    overflow: hidden;
-    padding: 25px;
+#container {
+  width: 75%;
+  background: slategray;
+  border-radius: 10px;
+  margin: 40px auto;
+  overflow: hidden;
+  padding: 25px;
+  padding-top: 50px;
 }
 
-header{
-    text-align: center;
-    border-bottom: #fff dashed 1px;
-
+header {
+  text-align: center;
+  border-bottom: white dashed 1px;
 }
 
-header h1{
-    margin: 0;
-    padding: 0;
+header h1 {
+  margin: 0;
+  padding: 0;
 }
 
-header p{
-    padding: 0;
-    margin-top: 5px;
-    color: #000000;
+header p {
+  padding: 0;
+  margin-top: 5px;
 }
 
-section{
-    min-height: 400px;
+section {
+  min-height: 400px;
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
 
-input[type='submit']{
-    background: orange;
-    border: 0;
-    border-radius: 5px;
-    color: #eee;
-    padding: 15px 25px;
-    cursor: pointer;
+input[type='submit'] {
+  font-size: 18px;
+  font-weight: bold;
+  background: #2e9aff;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  cursor: pointer;
 }
 
-#results h3{
-    background: orange;
-    padding: 10px;
-    margin: 10px 0;
+input[type='submit']:hover {
+  background: #006eff;
 }
 
-#results span{
-    color: #000;
-    font-weight: bold;
+form p {
+  margin: 0;
+  margin-bottom: 2px;
 }
+
+#result h3 {
+  border-radius: 10px;
+  background: #2e9aff;
+  padding: 10px;
+  margin: 10px 4px;
+}
+
+#result span {
+  color: black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
