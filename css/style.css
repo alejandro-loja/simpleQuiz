@@ -119,6 +119,7 @@ form p {
 
 /* Modal Content */
 .modal-content {
+  color: slategray;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
