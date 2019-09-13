@@ -122,7 +122,7 @@ form p {
   color: slategray;
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 1em;
   border: 1px solid #888;
   width: 60%;
 }
@@ -131,7 +131,7 @@ form p {
 #close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -156,7 +156,7 @@ form p {
     border: 0;
   }
   .modal-content {
-    width: 80%;
+    width: 85%;
   }
 }
 /*# sourceMappingURL=style.css.map */
