@@ -15,10 +15,10 @@ body{
     width: 75%;
     background: $secondaryColor;
     border-radius: 10px;
-    margin: 40px auto;
+    margin: 2em auto;
     overflow: hidden;
-    padding: 25px;
-    padding-top: 50px;
+    padding: 1em;
+    padding-top: 2em;
 }
 
 header{
@@ -30,7 +30,7 @@ header{
     }
     p{
         padding: 0;
-        margin-top: 5px;
+        margin-top: 0.5em;
     }
 }
 
@@ -39,17 +39,18 @@ section{
 }
 
 footer {
+    margin-top: 2em;
     text-align: center;
 }
 
 input[type='submit']{
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     background: $backgroundColor;
     border: 0;
     border-radius: 5px;
     color: $fontColor;
-    padding: 15px 25px;
+    padding: 1em 2em;
     cursor: pointer;
     &:hover{
         background: $hoverColor;
@@ -58,15 +59,15 @@ input[type='submit']{
 
 form p{
     margin: 0;
-    margin-bottom: 2px;
+    margin-bottom: 0.3em;
 }
 
 #result{
     h3 {
     border-radius: 10px;
     background: $backgroundColor;
-    padding: 10px;
-    margin: 10px 4px;
+    padding: 0.7em;
+    margin: 1em 0.5em;
     animation-name: example;
     animation-duration: 1s;
      }
