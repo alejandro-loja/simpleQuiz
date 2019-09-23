@@ -15,4 +15,4 @@ A simple multiple-choice form that tests your Javascript knowledge.
 
 ---
 
-### [Link to Website](https://github.com/alejandro-loja/simpleQuiz)
+### [Link to Website](https://alejandro-loja.github.io/simpleQuiz/)
